@@ -1,0 +1,4 @@
+echo '################# APPLE ###############'
+clang -E -dM - < /dev/null
+echo '################# GCC ##################'
+gcc -E -dM - < /dev/null
